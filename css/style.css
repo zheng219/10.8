@@ -35,5 +35,60 @@ html, body, .wrap {
       .wrap .header .nav .bg {
         color: #4e6ff5;
         border-bottom: 0.04rem solid #4e6ff5; }
+  .wrap .main {
+    width: 100%;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+    .wrap .main dl {
+      width: 90%;
+      margin: 0.25rem 5%;
+      /*height:2.18rem; */
+      border: 0.01rem solid #ccc;
+      border-radius: 0.2rem; }
+      .wrap .main dl dt {
+        width: 100%;
+        height: 1.29rem;
+        line-height: 1.29rem;
+        padding: 0.0rem 0.4rem;
+        box-sizing: border-box;
+        background: url(../images/bg_03.jpg) no-repeat 0 0;
+        background-size: cover; }
+        .wrap .main dl dt i {
+          float: left;
+          font-style: normal;
+          color: #fff; }
+          .wrap .main dl dt i em {
+            font-style: normal;
+            position: relative;
+            top: -0.43rem; }
+          .wrap .main dl dt i b {
+            font-size: 0.92rem;
+            margin-left: 0.1rem; }
+        .wrap .main dl dt span {
+          float: right;
+          color: #fff; }
+      .wrap .main dl dd {
+        padding: 0.16rem 0.43rem;
+        box-size: border-box; }
+        .wrap .main dl dd p {
+          font-size: 0.22rem;
+          text-indent: 0;
+          line-height: 1.6; }
+        .wrap .main dl dd p:nth-child(1) {
+          color: #52c395;
+          clear: both;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+    .wrap .main dl:nth-child(2) dt {
+      background: url(../images/bg_06.jpg) no-repeat 0 0;
+      background-size: cover; }
+    .wrap .main dl:nth-child(3) dt {
+      background: url(../images/bg_08.jpg) no-repeat 0 0;
+      background-size: cover; }
+    .wrap .main dl:nth-child(4) dt {
+      background: url(../images/bg_10.jpg) no-repeat 0 0;
+      background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
